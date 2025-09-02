@@ -1,0 +1,6 @@
+[2025-08-21 14:30:07] Script avviato.
+[2025-08-21 14:30:12] Input ricevuti: Metodo=UTL_FILES, PathDati=c:\scp\data, PathLog=c:\scp\log
+[2025-08-21 14:30:12] Connessioni caricate dal file di config.
+[2025-08-21 14:30:13] Entro dentro il metodo UTL_FILES.
+[2025-08-21 14:30:13] Eseguo l'istruzione: sqlplus -S sys/oracle@localhost:1521/ORCL as sysdba @C:\scp\script\Environment\CREATE_ENV.sql c:\scp\data c:\scp\log.
+[2025-08-21 14:30:15] Completato l'inserimento dei dati.

@@ -1,0 +1,12 @@
+[2025/08/26 11:25:52:085 - Write-Log - INFO] Script avviato.
+[2025/08/26 11:25:52:094 - Write-Log - INFO] Controllo CSV superato: trovato file c:\scp\data\dati.csv non vuoto.
+[2025/08/26 11:25:52:105 - Write-Log - INFO] Input ricevuti: Metodo=EXTERNAL_TABLE, PathDati=c:\scp\data, PathLog=c:\scp\log
+[2025/08/26 11:25:52:120 - Write-Log - INFO] Connessioni caricate dal file di config.
+[2025/08/26 11:25:52:130 - Write-Log - INFO] Eseguo SQL*Plus: C:\scp\script\Environment\CREATE_ENV_DIN.sql
+[2025/08/26 11:25:53:322 - Write-Log - INFO]  Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Concessione riuscita.  vecchio   2:	EXECUTE IMMEDIATE 'CREATE OR REPLACE DIRECTORY SCP_DATA_DIR AS ''&1'' '; nuovo	2:    EXECUTE IMMEDIATE 'CREATE OR REPLACE DIRECTORY SCP_DATA_DIR AS ''c:\scp\data'' '; vecchio   4:	EXECUTE IMMEDIATE 'CREATE OR REPLACE DIRECTORY SCP_LOG_DIR AS ''&2'' '; nuovo	4:    EXECUTE IMMEDIATE 'CREATE OR REPLACE DIRECTORY SCP_LOG_DIR AS ''c:\scp\log'' ';  Procedura PL/SQL completata correttamente.   Concessione riuscita.   Concessione riuscita.   Concessione riuscita.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura creata.   Procedura creata. 
+[2025/08/26 11:25:53:328 - Write-Log - INFO] SQL*Plus completato correttamente: C:\scp\script\Environment\CREATE_ENV_DIN.sql
+[2025/08/26 11:25:53:351 - Write-Log - INFO] Eseguo l'istruzione: sqlplus -S sys/oracle@localhost:1521/ORCL as sysdba @C:\scp\script\Environment\CREATE_ENV_DIN.sql c:\scp\data c:\scp\log.
+[2025/08/26 11:25:53:361 - Write-Log - INFO] Entro dentro il metodo EXTERNAL_TABLE.
+[2025/08/26 11:25:53:374 - Write-Log - INFO] Eseguo SQL*Plus: C:\scp\script\Tipi_caricamento\load_external_table.sql
+[2025/08/26 11:25:54:551 - Write-Log - INFO] drop table SCP_TAB00_DATA            * ERRORE alla riga 1: ORA-00942: tabella o vista inesistente    Tabella creata.   Procedura PL/SQL completata correttamente. 
+[2025/08/26 11:25:54:558 - Write-Log - ERROR] Errore SQL*Plus rilevato in C:\scp\script\Tipi_caricamento\load_external_table.sql

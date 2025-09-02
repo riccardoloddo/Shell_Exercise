@@ -1,0 +1,15 @@
+[2025/08/25 16:02:47:413 - Write-Log - INFO] Script avviato.
+[2025/08/25 16:02:47:418 - Write-Log - INFO] Controllo CSV superato: trovato file c:\scp\data\dati.csv non vuoto.
+[2025/08/25 16:02:47:428 - Write-Log - INFO] Input ricevuti: Metodo=SQLLOADER, PathDati=c:\scp\data, PathLog=c:\scp\log
+[2025/08/25 16:02:47:439 - Write-Log - INFO] Connessioni caricate dal file di config.
+[2025/08/25 16:02:47:451 - Write-Log - INFO] Eseguo SQL*Plus: C:\scp\script\Environment\CREATE_ENV_DIN.sql
+[2025/08/25 16:02:48:610 - Write-Log - INFO]  Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Concessione riuscita.  vecchio   2:	EXECUTE IMMEDIATE 'CREATE OR REPLACE DIRECTORY SCP_DATA_DIR AS ''&1'' '; nuovo	2:    EXECUTE IMMEDIATE 'CREATE OR REPLACE DIRECTORY SCP_DATA_DIR AS ''c:\scp\data'' '; vecchio   4:	EXECUTE IMMEDIATE 'CREATE OR REPLACE DIRECTORY SCP_LOG_DIR AS ''&2'' '; nuovo	4:    EXECUTE IMMEDIATE 'CREATE OR REPLACE DIRECTORY SCP_LOG_DIR AS ''c:\scp\log'' ';  Procedura PL/SQL completata correttamente.   Concessione riuscita.   Concessione riuscita.   Concessione riuscita.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura PL/SQL completata correttamente.   Procedura creata.   Procedura creata. 
+[2025/08/25 16:02:48:617 - Write-Log - INFO] SQL*Plus completato correttamente: C:\scp\script\Environment\CREATE_ENV_DIN.sql
+[2025/08/25 16:02:48:636 - Write-Log - INFO] Entro dentro il metodo SQLLOADER.
+[2025/08/25 16:02:48:649 - Write-Log - INFO] Eseguo SQL*Plus: C:\scp\script\Tipi_caricamento\load_sqlloader.sql
+[2025/08/25 16:02:49:803 - Write-Log - INFO] vecchio   2:	 v_step VARCHAR2(20) := '&1'; nuovo	2:     v_step VARCHAR2(20) := 'PRELOAD';  Procedura PL/SQL completata correttamente. 
+[2025/08/25 16:02:49:808 - Write-Log - INFO] SQL*Plus completato correttamente: C:\scp\script\Tipi_caricamento\load_sqlloader.sql
+[2025/08/25 16:02:52:010 - Write-Log - INFO] Eseguo SQL*Plus: C:\scp\script\Tipi_caricamento\load_sqlloader.sql
+[2025/08/25 16:02:53:162 - Write-Log - INFO] vecchio   2:	 v_step VARCHAR2(20) := '&1'; nuovo	2:     v_step VARCHAR2(20) := 'POSTLOAD';  Procedura PL/SQL completata correttamente. 
+[2025/08/25 16:02:53:168 - Write-Log - INFO] SQL*Plus completato correttamente: C:\scp\script\Tipi_caricamento\load_sqlloader.sql
+[2025/08/25 16:02:53:194 - Write-Log - INFO] Completato l'inserimento dei dati. Script terminato.

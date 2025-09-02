@@ -1,0 +1,7 @@
+[2025-08-22 16:00:29] Script avviato.
+[2025-08-22 16:00:54] Controllo CSV superato: trovato file c:\scp\data\dati.csv non vuoto.
+[2025-08-22 16:00:54] Input ricevuti: Metodo=EXTERNAL_TABLE, PathDati=c:\scp\data, PathLog=c:\scp\log
+[2025-08-22 16:00:54] Connessioni caricate dal file di config.
+[2025-08-22 16:00:55] Eseguo l'istruzione: sqlplus -S sys/oracle@localhost:1521/ORCL as sysdba @C:\scp\script\Environment\CREATE_ENV.sql c:\scp\data c:\scp\log.
+[2025-08-22 16:00:55] Entro dentro il metodo EXTERNAL_TABLE.
+[2025-08-22 16:00:56] Completato l'inserimento dei dati. Script terminato.

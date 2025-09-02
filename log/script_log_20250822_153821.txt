@@ -1,0 +1,7 @@
+[2025-08-22 15:38:21] Script avviato.
+[2025-08-22 15:38:38] Controllo CSV superato: trovato file c:\scp\data\dati.csv non vuoto.
+[2025-08-22 15:38:38] Input ricevuti: Metodo=UTL_FILES, PathDati=c:\scp\data, PathLog=c:\scp\log
+[2025-08-22 15:38:38] Connessioni caricate dal file di config.
+[2025-08-22 15:38:43] Entro dentro il metodo UTL_FILES.
+[2025-08-22 15:38:43] Eseguo l'istruzione: sqlplus -S sys/oracle@localhost:1521/ORCL as sysdba @C:\scp\script\Environment\CREATE_ENV.sql c:\scp\data c:\scp\log.
+[2025-08-22 15:38:44] Completato l'inserimento dei dati. Script terminato.

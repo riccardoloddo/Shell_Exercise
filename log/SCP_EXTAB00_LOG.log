@@ -1,0 +1,70 @@
+
+
+ File di LOG aperto in 08/20/25 10:58:23
+
+Numero totale di file=1
+
+File di dati: dati.csv
+
+File di log: SCP_EXTAB00_LOG.log
+
+
+
+ File di LOG aperto in 08/20/25 11:00:02
+
+Numero totale di file=1
+
+File di dati: dati.csv
+
+File di log: SCP_EXTAB00_LOG.log
+
+
+
+ File di LOG aperto in 08/20/25 11:00:02
+
+File errato: SCP_EXTAB00_SCARTI.bad
+
+Definizioni dei campi per la tabella SCP_TAB00_DATA
+  Formato record DELIMITED BY NEWLINE
+  I dati del file presentano lo stesso tipo di formato endian della piattaforma
+  Sono accettate le righe con tutti i campi nulli
+
+  Campi dell'origine di dati: 
+
+    CF                              CHAR (255)
+      Terminato da ";"
+      Rimuovi spazio vuoto come in SQL Loader
+    NOME                            CHAR (255)
+      Terminato da ";"
+      Rimuovi spazio vuoto come in SQL Loader
+    COGNOME                         CHAR (255)
+      Terminato da ";"
+      Rimuovi spazio vuoto come in SQL Loader
+    SALARIO                         CHAR (255)
+      Terminato da ";"
+      Rimuovi spazio vuoto come in SQL Loader
+
+
+ File di LOG aperto in 08/20/25 10:58:23
+
+File errato: SCP_EXTAB00_SCARTI.bad
+
+Definizioni dei campi per la tabella SCP_TAB00_DATA
+  Formato record DELIMITED BY NEWLINE
+  I dati del file presentano lo stesso tipo di formato endian della piattaforma
+  Sono accettate le righe con tutti i campi nulli
+
+  Campi dell'origine di dati: 
+
+    CF                              CHAR (255)
+      Terminato da ";"
+      Rimuovi spazio vuoto come in SQL Loader
+    NOME                            CHAR (255)
+      Terminato da ";"
+      Rimuovi spazio vuoto come in SQL Loader
+    COGNOME                         CHAR (255)
+      Terminato da ";"
+      Rimuovi spazio vuoto come in SQL Loader
+    SALARIO                         CHAR (255)
+      Terminato da ";"
+      Rimuovi spazio vuoto come in SQL Loader

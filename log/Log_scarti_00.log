@@ -1,0 +1,52 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Mar Ago 26 14:53:49 2025
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control file:   C:\scp\script\Tipi_caricamento\load_sqlloader.ctl
+File di Dati:        c:\scp\data\dati.csv
+  File errato:    C:\scp\bad\Bad_scarti_00.bad
+  File dei dati scartati:  nessuna specificata
+ 
+ (Consente di scartare tutto)
+
+Numero da caricare: ALL
+Numero da saltare: 1
+Errori consentiti: 50
+Array di associazione:     250 righe, massimo 1048576 byte
+Continuazione:    nessuna specificata
+Percorso usato:      Convenzionale
+
+Tabella SCPT.SCP_TAB00_DATA, caricata da ogni record logico.
+Inserire opzione attiva per questa tabella: INSERT
+Opzione TRAILING NULLCOLS attiva
+
+   Nome colonna                  Posizione   Lun  Term Agg Tipo dati
+------------------------------ ---------- ----- ---- ---- ---------------------
+CF                                  FIRST     *   ;  O(") CHARACTER            
+NOME                                 NEXT     *   ;  O(") CHARACTER            
+COGNOME                              NEXT     *   ;  O(") CHARACTER            
+SALARIO                              NEXT     *   ;  O(") CHARACTER            
+
+
+Tabella SCPT.SCP_TAB00_DATA:
+  caricamento di 50 Righe riuscito.
+  0 Righe non caricate causa errori nei dati.
+  0 Righe non caricate perché nessuna clausola WHEN è riuscita.
+  0 Righe non caricate perché tutti i campi erano nulli.
+
+
+Spazio assegnato all'array di associazione:                 258000 byte (250 righe)
+Byte buffer di lettura: 1048576
+
+Totale dei record logici saltati:          1
+Totale dei record logici letti:            50
+Totale dei record logici rifiutati:         0
+Totale dei record logici scartati:        0
+
+Esecuzione iniziata il Mar Ago 26 14:53:49 2025
+Esecuzione terminata il Mar Ago 26 14:53:53 2025
+
+Tempo impiegato:      00:00:03.82
+Tempo CPU:            00:00:00.16

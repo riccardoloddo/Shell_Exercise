@@ -1,0 +1,2 @@
+[2025-08-22 14:39:34] Script avviato.
+[2025-08-22 14:40:02] ERRORE: Il file c:\csp\dat\dati.csv non esiste. Controllare il path dei dati.

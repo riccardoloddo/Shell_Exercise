@@ -1,0 +1,2 @@
+[2025-08-21 14:22:14] Script avviato.
+[2025-08-21 14:22:32] Input ricevuti: Metodo=EXTERNAL_TABLE, PathDati=c:\scp\data, PathLog=c:\scp\log
