@@ -1,6 +1,7 @@
 -------------------------------------------------------------- 
-----------------CREAZIONE NUOVO UTENTE
+----------------CREAZIONE NUOVO UTENTE------------------------
 --------------------------------------------------------------
+--CiAO
 
 BEGIN
    EXECUTE IMMEDIATE 'DROP USER SCPT CASCADE';
@@ -11,6 +12,7 @@ EXCEPTION
       END IF;
 END;
 /
+
 
 BEGIN
    EXECUTE IMMEDIATE 'CREATE USER SCPT IDENTIFIED BY SCPT';
